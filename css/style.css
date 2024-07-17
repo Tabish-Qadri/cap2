@@ -1,0 +1,138 @@
+body{
+    background-color:rgb(229, 242, 253) ;
+}
+*{margin: 0px;}
+.head-top{
+    background-color: rgb(229, 242, 253);
+     display: flex ;
+     justify-content: center;
+}
+@media (min-width: 200px) and (max-width: 500px){
+    .intro{
+        font-size: 2rem;
+    }
+}
+
+.intro{
+    height: 200px;
+    background-color: rgb(229, 242, 253) ;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: "Sacramento", cursive;
+    color: rgb(19, 34, 48);
+
+}
+@media (min-width: 200px) and (max-width: 500px){
+    .intro{
+        font-size: 2rem;
+    }
+    .ocuption{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.ocuption{
+    height: 350px;
+    background-color: rgb(229, 242, 253) ;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding-left: 10px;
+    font-size: 2rem;
+    font-family: "Sacramento", cursive;
+    color: rgb(19, 34, 48);
+
+}
+@media (min-width: 200px) and (max-width: 500px){
+    
+    .ocuption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.testaimonial{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(229, 242, 253) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    
+    
+}
+.image {
+    height: 300px;
+    padding-left:20px ;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+    
+}
+.testaimonial-text{
+    padding-left: 10px;
+    font-size: 4rem;
+    font-family: Sacramento ;
+    
+
+}
+@media (min-width: 200px) and (max-width: 500px){
+    
+   .testaimonial-text{font-size: 20px;}
+}
+.skills{
+    overflow: hidden;
+    background-color: rgb(229, 242, 253) ;
+    height: 500px;
+   
+    display: grid;
+    grid-template-columns: 0.4fr 0.3fr ;
+    grid-template-rows: 0.2fr 0.7fr 0.1fr;
+    margin: 20px;
+}   
+.skill-image{
+    grid-area: 2/1/3/2;
+    
+    
+}
+.skill-text{
+    
+    grid-area: 2/2/4/4;
+    font-size: 1rem;
+    font-family: "Playwrite PE", cursive;
+
+    
+}
+#skill-headding{
+    grid-area:  1/1/2/4;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+}
+.skill-image img{
+    height: 50%;
+}
+@media (min-width: 200px) and (max-width: 500px){
+    
+    .skill-image img{
+        height: 20%;
+    }
+}
+
+
+
+
